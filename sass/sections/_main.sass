@@ -1,0 +1,126 @@
+.main
+  width: 100%
+  display: flex
+
+		&__about
+      width: 100%
+      display: flex
+      margin-top: 100px
+
+		&__cup
+      width: 20%
+
+		&__all
+      display: flex
+      flex-direction: column
+
+		&__wrap
+      width: 100%
+      float: right
+      background: linear-gradient(270deg, #338D68 0%, rgba(196, 196, 196, 0) 41.39%)
+
+		&__head
+      justify-content: center
+      align-items: center
+      display: block
+      padding-left: 230px
+      margin: 18px 0 18px 0
+      font-family: Fira Sans
+      font-style: normal
+      font-weight: bold
+      font-size: 35px
+      line-height: 42px
+      letter-spacing: 0.085em
+      text-transform: uppercase
+      color: #00704A
+    
+		&__text
+      width: 74%
+      margin: 30px 0 0 30px
+      font-family: Montserrat
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 178.4%
+      color: #000000
+
+		&__about2
+      width: 100%
+      display: flex
+
+		&__all2
+      width: 66%
+      display: flex
+      flex-direction: column
+      
+		&__wrap2
+      z-index: 1
+      width: 100%
+      float: left
+      background: linear-gradient(270deg, #338D68 0%, rgba(196, 196, 196, 0) 41.39%)
+      transform: rotate(-180deg)
+
+		&__head2
+      justify-content: center
+      align-items: center
+      display: block
+      padding-left: 230px
+      margin: 18px 0 18px 0
+      font-family: Fira Sans
+      font-style: normal
+      font-weight: bold
+      font-size: 35px
+      line-height: 42px
+      letter-spacing: 0.1em
+      text-transform: uppercase
+      color: #00704A
+      transform: rotate(-180deg)
+
+		&__text2
+      width: 76%
+      margin: 30px 0 0 215px
+      font-family: Montserrat
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 178.4%
+      color: #000000
+      
+		&__logo
+      margin: -200px 17px 50px 50px
+      width: 30%
+
+@media (max-width:1440px)
+  .main__text
+    width: 83%
+@media (max-width:1024px)
+  .main__about
+    margin-top: 70px
+  .main p
+    width: 78%
+    font-size: 11px
+  .main h2
+    font-size: 25px
+    padding: 0 0 0 150px
+    margin: 5px 0 5px 0
+  .main__logo
+    margin: -100px 17px 30px 50px
+  .main__text2
+    margin: 50px 0 0 150px
+
+@media (max-width:768px)
+  .main__about
+    margin-top: 50px
+  .main p
+    width: 78%
+    font-size: 11px
+  .main h2
+    font-size: 18px
+    padding: 0 0 0 110px
+    margin: 5px 0 5px 0
+  .main__logo
+    margin: -50px 17px 20px 50px
+  .main__text2
+    margin: 50px 0 0 110px
+
+
