@@ -599,6 +599,12 @@ html {
   }
 }
 
+@media (max-width: 1240px) {
+  .slider__text {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 1024px) {
   .slick-track img {
     width: 50%;
@@ -610,6 +616,12 @@ html {
   }
   .slider__headtxt {
     font-size: 38px;
+  }
+}
+
+@media (max-width: 980px) {
+  .slider__text {
+    font-size: 14px;
   }
 }
 
