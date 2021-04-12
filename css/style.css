@@ -4,6 +4,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1600px;
   min-height: auto;
@@ -17,6 +21,10 @@
   text-align: center;
   margin: 0 auto;
   height: 81px;
+}
+
+.logo {
+  padding-top: 10px;
 }
 
 .menu__body {
@@ -591,11 +599,17 @@
   .slider__text {
     font-size: 16px;
   }
+  .slider__headtxt {
+    font-size: 38px;
+  }
 }
 
 @media (max-width: 768px) {
   .slider__text {
     font-size: 10px;
+  }
+  .slider__headtxt {
+    font-size: 26px;
   }
 }
 
@@ -617,15 +631,20 @@
 }
 
 .num__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   border: 1px solid #000;
   border-radius: 5px;
 }
 
 .skin-4 .in-num {
-  width: 40px;
+  width: 50px;
   height: 30px;
   float: left;
+  font-family: Fira Sans;
+  font-style: normal;
   font-size: 26px;
   font-weight: bold;
   text-align: center;
@@ -683,7 +702,7 @@
 .skin-4 .pieses {
   width: 55px;
   height: 42px;
-  padding: 6px 6px 6px 9px;
+  padding: 3px 6px 6px 9px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -692,6 +711,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.085em;
   text-transform: lowercase;
 }
@@ -732,6 +754,7 @@
 }
 
 .footer_bg {
+  position: relative;
   width: 100%;
   height: 187px;
   background: #00704A;
@@ -739,8 +762,8 @@
 }
 
 .footer_logo {
-  width: auto;
-  height: auto;
-  margin: 94px 250px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
 }
 /*# sourceMappingURL=style.css.map */
