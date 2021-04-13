@@ -10,7 +10,7 @@ html {
 
 .container {
   max-width: 1600px;
-  min-height: auto;
+  height: 100%;
 }
 
 .navbar {
@@ -226,6 +226,15 @@ html {
 @media (max-width: 1441px) {
   .header__offer {
     padding: 70px 0 0 80px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .header h1 {
+    font-size: 48px;
+  }
+  .btn {
+    font-size: 20px;
   }
 }
 
